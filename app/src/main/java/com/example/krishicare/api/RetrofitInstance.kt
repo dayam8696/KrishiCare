@@ -1,6 +1,6 @@
 package com.example.KrishiCare.api
 
-import com.example.weatherapp.utils.Constants.BASE_URL
+import com.example.KrishiCare.utils.Constants.BASE_URL
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

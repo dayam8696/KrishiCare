@@ -3,7 +3,6 @@ package com.example.KrishiCare.ViewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.KrishiCare.Repository.WeatherRepository
-import com.example.weatherapp.ViewModel.WeatherViewModel
 
 class WeatherViewModelProviderFactory(
     val weatherRepository: WeatherRepository

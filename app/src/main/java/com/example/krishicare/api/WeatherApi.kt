@@ -1,7 +1,8 @@
 package com.example.KrishiCare.api
 
 import com.example.KrishiCare.model.CurrentWeather
-import com.example.weatherapp.utils.Constants.API_KEY
+import com.example.KrishiCare.utils.Constants.API_KEY
+
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

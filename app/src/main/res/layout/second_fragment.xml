@@ -9,8 +9,10 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="25dp"
+        android:layout_margin="20dp"
         android:columnCount="2"
+        android:background="#DAE4D0"
+        android:backgroundTint="#DAE4D0"
         android:rowCount="3">
 
         <androidx.cardview.widget.CardView
@@ -23,6 +25,7 @@
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
+            android:backgroundTint="#DAE4D0"
             app:cardElevation="8dp">
 
 
@@ -37,7 +40,20 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:text="Get crop recommendations for your farm"
+                    android:layout_marginTop="0dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
                     android:layout_gravity="center"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
                     android:gravity="left"
                     android:text="Nitrogen (N)"
                     android:textSize="20dp"
@@ -49,8 +65,7 @@
                     android:layout_height="40dp"
                     android:layout_marginTop="4dp"
                     android:background="@drawable/rectangle_shape"
-                    android:hint="Enter the Value (exapmle:50)"
-                    android:gravity="center"
+                    android:hint="  Nitrogen"
                     android:inputType="number" />
 
                 <TextView
@@ -150,7 +165,6 @@
                     android:id="@+id/spinner_indian_state"
                     android:layout_width="260dp"
                     android:layout_height="40dp"
-
                     android:background="@drawable/rectangle_shape" />
 
 
@@ -160,6 +174,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
+                    android:backgroundTint="#3F7A04"
                     android:text="Let's Predict" />
 
 

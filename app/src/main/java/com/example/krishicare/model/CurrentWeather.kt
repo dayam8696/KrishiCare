@@ -1,10 +1,5 @@
 package com.example.KrishiCare.model
 
-import com.example.weatherapp.model.Main
-import com.example.weatherapp.model.Sys
-import com.example.weatherapp.model.Weather
-import com.example.weatherapp.model.Wind
-
 data class CurrentWeather(
     val base: String,
     val clouds: Clouds,
