@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 <item
-    android:id="@+id/homeFragment2"
+    android:id="@+id/homeFragment"
     android:icon="@drawable/baseline_home_24"
     android:title="Home"/>
 
@@ -10,8 +10,12 @@
         android:icon="@drawable/predictionmenuimage"
         android:title="Predict"/>
     <item
-        android:id="@+id/homeFragment"
+        android:id="@+id/weatherFragment"
         android:icon="@drawable/baseline_wb_sunny_24"
         android:title="Weather"/>
+<item
+    android:id="@+id/diseaseDetectionFragment"
+    android:icon="@drawable/baseline_search_24"
+    android:title="DP"/>
 
 </menu>

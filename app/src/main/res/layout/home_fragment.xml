@@ -1,56 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    android:background="@drawable/homegarden">
+    android:background="@drawable/newhome"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        android:gravity="center"
-        android:text="Welcome to "
-        android:textColor="#ffffff"
-        android:textSize="30dp"
-        android:textStyle="italic" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:text="AGROTECH"
-        android:textColor="#FFFFFF"
-        android:textSize="40sp"
-        android:textStyle="bold" />
+        android:layout_marginTop="5dp"
+        android:src="@drawable/newappicon"/>
 
     <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="25dp"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
         android:columnCount="2"
         android:rowCount="3">
 
 
         <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
             android:id="@+id/btnhmgrdn"
-            android:layout_height="wrap_content"
+            android:layout_width="87dp"
+            android:layout_height="80dp"
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
+            app:cardBackgroundColor="#FEFDED"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
                 android:orientation="vertical">
@@ -58,16 +49,16 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:background="@drawable/agroblogfinal"/>
+                    android:background="@drawable/newagroblog" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="1dp"
-                    android:text="AgroBlogs"
+                    android:layout_marginTop="10dp"
+                    android:text="Agro Blogs"
                     android:textSize="15dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
 
             </LinearLayout>
@@ -77,12 +68,13 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btncashcrp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:layout_column="1"
             android:layout_columnWeight="1"
+            app:cardBackgroundColor="#FEFDED"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
@@ -99,15 +91,17 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:background="@drawable/agroconnect"/>
+                    android:background="@drawable/newdisease"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Agro-Connect"
+                    android:text="Disease Prediction"
                     android:textSize="15dp"
                     android:textStyle="bold"/>
+
+
 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -115,12 +109,13 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btnpredict"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_row="1"
             android:layout_rowWeight="1"
             android:layout_column="0"
             android:layout_columnWeight="1"
+            app:cardBackgroundColor="#FEFDED"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
@@ -136,7 +131,7 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:background="@drawable/predictionlogo"/>
+                    android:background="@drawable/newcropprediction"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -153,12 +148,13 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/btnfertilizer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_row="1"
             android:layout_rowWeight="1"
             android:layout_column="1"
             android:layout_columnWeight="1"
+            app:cardBackgroundColor="#FEFDED"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
@@ -174,7 +170,7 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:background="@drawable/fertilizericon"/>
+                    android:background="@drawable/newfertizericon"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -182,7 +178,7 @@
                     android:layout_marginTop="10dp"
                     android:text="Riched Fertilizer"
                     android:textSize="15dp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -190,6 +186,17 @@
         </androidx.cardview.widget.CardView>
 
     </GridLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnChat"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FEFDED"
+
+
+        android:src="@drawable/baseline_chat_24" />
 
 
 </LinearLayout>

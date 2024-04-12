@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WeatherApp</string>
+    <string name="app_name">KrishiCare</string>
     <string name="good">Good</string>
     <string name="fair">Fair</string>
     <string name="moderate">Moderate</string>

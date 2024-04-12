@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_after"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.krishicare.ui.fragment.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/home_fragment"/>
+
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.example.KrishiCare.ui.fragment.SecondFragment"
+        android:label="SecondFragment"
+        tools:layout="@layout/second_fragment"/>
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.example.KrishiCare.ui.fragment.WeatherFragment"
+        android:label="WeatherFragment"
+        tools:layout="@layout/weather_fragment"/>
+    <fragment
+        android:id="@+id/diseaseDetectionFragment"
+        android:name="com.example.krishicare.ui.fragment.DiseaseDetectionFragment"
+        android:label="DiseaseDetectionFragment"
+        tools:layout="@layout/disease_detection_fragment"/>
+</navigation>
