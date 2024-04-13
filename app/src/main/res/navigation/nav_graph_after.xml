@@ -19,6 +19,12 @@
         <action
             android:id="@+id/action_homeFragment_to_fertilizerFragment2"
             app:destination="@id/fertilizerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_chatBotFragment"
+            app:destination="@id/chatBotFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_agroBlogFragment"
+            app:destination="@id/agroBlogFragment" />
     </fragment>
 
     <fragment
@@ -61,5 +67,13 @@
         android:name="com.example.krishicare.ui.fragment.FertilizerResult"
         android:label="FertilizerResult"
         tools:layout="@layout/fertilizer_result_fragment"/>
+    <fragment
+        android:id="@+id/chatBotFragment"
+        android:name="com.example.krishicare.ui.fragment.ChatBotFragment"
+        android:label="ChatBotFragment" />
+    <fragment
+        android:id="@+id/agroBlogFragment"
+        android:name="com.example.krishicare.ui.fragment.AgroBlogFragment"
+        android:label="AgroBlogFragment" />
 
 </navigation>

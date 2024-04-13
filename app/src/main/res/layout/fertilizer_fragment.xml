@@ -4,32 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img">
+    android:background="@drawable/newprediction">
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="25dp"
+
         android:columnCount="2"
         android:rowCount="3">
 
-        <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_row="0"
-            android:layout_rowWeight="1"
-            android:layout_column="0"
-            android:layout_columnWeight="1"
-            android:layout_gravity="fill"
-            android:layout_margin="8dp"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp">
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="20dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginLeft="50dp"
+
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -122,13 +116,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
+                    android:backgroundTint="#3ECF27"
                     android:text="Let's Predict" />
 
 
             </LinearLayout>
 
 
-        </androidx.cardview.widget.CardView>
+
 
 
     </GridLayout>

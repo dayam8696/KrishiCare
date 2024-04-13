@@ -6,16 +6,15 @@
     android:title="Home"/>
 
     <item
-        android:id="@+id/secondFragment"
-        android:icon="@drawable/predictionmenuimage"
-        android:title="Predict"/>
+        android:id="@+id/diseaseDetectionFragment"
+        android:icon="@drawable/baseline_search_24"
+        android:title="DP"/>
+
+
     <item
         android:id="@+id/weatherFragment"
         android:icon="@drawable/baseline_wb_sunny_24"
         android:title="Weather"/>
-<item
-    android:id="@+id/diseaseDetectionFragment"
-    android:icon="@drawable/baseline_search_24"
-    android:title="DP"/>
+
 
 </menu>
