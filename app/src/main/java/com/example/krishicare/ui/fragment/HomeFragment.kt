@@ -22,6 +22,7 @@ class HomeFragment : BaseFragments() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
             ClickLisner()
+
     }
 
     fun ClickLisner() {
