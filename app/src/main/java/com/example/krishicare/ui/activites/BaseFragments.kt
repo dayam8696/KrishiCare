@@ -1,4 +1,4 @@
-package com.example.krishicare.ui.fragment
+package com.example.krishicare.ui.activites
 
 import android.os.Bundle
 import android.view.LayoutInflater

@@ -6,12 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import androidx.appcompat.R
+import androidx.navigation.fragment.findNavController
+
 import com.example.KrishiCare.api.RetrofitInstance
 import com.example.KrishiCare.model.CurrentWeather
+import com.example.krishicare.R
 import com.example.krishicare.databinding.SecondFragmentBinding
 import com.example.krishicare.ml.ConvertedModel
-import com.example.krishicare.ui.fragment.BaseFragments
+import com.example.krishicare.ui.activites.BaseFragments
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -74,7 +76,7 @@ class SecondFragment: BaseFragments() {
         val adapter =
             ArrayAdapter(
                 requireContext(),
-                R.layout.support_simple_spinner_dropdown_item,
+                androidx.appcompat.R.layout.support_simple_spinner_dropdown_item,
                 indianStates
             )
 
@@ -158,7 +160,8 @@ class SecondFragment: BaseFragments() {
             }
             cropName = crop
             showToast(crop)
-          //  findNavController().navigate(R.id.action_camFragment2_to_resultScreen2)
+
+          findNavController().navigate(R.id.action_secondFragment_to_cropResult3)
 
         }
     }

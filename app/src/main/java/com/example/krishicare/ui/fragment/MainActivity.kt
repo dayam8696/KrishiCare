@@ -1,4 +1,4 @@
-package com.example.krishicare.ui.activites
+package com.example.krishicare.ui.fragment
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

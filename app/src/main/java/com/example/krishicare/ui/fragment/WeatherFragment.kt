@@ -8,11 +8,12 @@ import android.view.ViewGroup
 import com.example.KrishiCare.ViewModel.WeatherViewModel
 import com.example.KrishiCare.utils.Resource
 import com.example.krishicare.databinding.WeatherFragmentBinding
-import com.example.krishicare.ui.activites.MainActivity
-import com.example.krishicare.ui.fragment.BaseFragments
+
+import com.example.krishicare.ui.activites.BaseFragments
+import com.example.krishicare.ui.fragment.MainActivity
 
 
-class WeatherFragment :BaseFragments(){
+class WeatherFragment : BaseFragments(){
     private val binding by lazy { WeatherFragmentBinding.inflate(layoutInflater) }
     lateinit var viewModel: WeatherViewModel
 
