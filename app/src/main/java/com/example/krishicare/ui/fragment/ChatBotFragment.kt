@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.webkit.WebViewClient
 import com.example.krishicare.databinding.ChatBotFragmentBinding
-import com.example.krishicare.ui.activites.BaseFragments
 
 class ChatBotFragment : BaseFragments() {
     private val binding by lazy { ChatBotFragmentBinding.inflate(layoutInflater) }

@@ -10,7 +10,6 @@ import androidx.navigation.fragment.findNavController
 import com.example.KrishiCare.utils.Constants.CHAT_BOT
 import com.example.krishicare.R
 import com.example.krishicare.databinding.HomeFragmentBinding
-import com.example.krishicare.ui.activites.BaseFragments
 
 class HomeFragment : BaseFragments() {
     private val binding by lazy { HomeFragmentBinding.inflate(layoutInflater) }
@@ -24,6 +23,7 @@ class HomeFragment : BaseFragments() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        navigationVisibility(true)
             ClickLisner()
 
     }

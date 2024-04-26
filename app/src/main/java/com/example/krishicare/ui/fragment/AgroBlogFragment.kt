@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.webkit.WebViewClient
 import com.example.krishicare.databinding.AgroBlogFragmentBinding
-import com.example.krishicare.ui.activites.BaseFragments
 
 class AgroBlogFragment : BaseFragments() {
     private val binding by lazy { AgroBlogFragmentBinding.inflate(layoutInflater) }
@@ -22,6 +21,7 @@ class AgroBlogFragment : BaseFragments() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        navigationVisibility(false)
         binding.wvMain.settings.javaScriptEnabled
         binding.wvMain.loadUrl("https://agriculusedu.netlify.app/")
         binding.wvMain.webViewClient = WebViewClient()

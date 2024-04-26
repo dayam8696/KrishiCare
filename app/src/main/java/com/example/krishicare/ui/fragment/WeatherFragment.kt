@@ -9,8 +9,8 @@ import com.example.KrishiCare.ViewModel.WeatherViewModel
 import com.example.KrishiCare.utils.Resource
 import com.example.krishicare.databinding.WeatherFragmentBinding
 
-import com.example.krishicare.ui.activites.BaseFragments
-import com.example.krishicare.ui.fragment.MainActivity
+import com.example.krishicare.ui.fragment.BaseFragments
+import com.example.krishicare.ui.activites.MainActivity
 
 
 class WeatherFragment : BaseFragments(){
@@ -49,9 +49,9 @@ class WeatherFragment : BaseFragments(){
                             tvMaxTemp.text = "Max temp:${weatherResponse.main.temp_max.toInt().toString()}°C"
                             tvMinTemp.text = "Min temp${weatherResponse.main.temp_min.toInt().toString()}°C"
                             tvFeelsLike.text ="${weatherResponse.main.feels_like.toInt().toString()}°C"
-                            tvSunrise.text = "${weatherResponse.sys.sunrise.toInt().toString()}°C"
-                            tvSunset.text = "${weatherResponse.sys.sunset.toInt().toString()}°C"
-                            tvWind.text = "${weatherResponse.wind.speed.toInt().toString()}°C"
+                            tvSunrise.text = "${weatherResponse.sys.sunrise.toInt().toString()}"
+                            tvSunset.text = "${weatherResponse.sys.sunset.toInt().toString()}"
+                            tvWind.text = "${weatherResponse.wind.speed.toInt().toString()}"
 
                         }
 

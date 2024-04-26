@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.KrishiCare.ui.fragment.SecondFragment
 import com.example.krishicare.databinding.CropPredictionResultFragmentBinding
-import com.example.krishicare.ui.activites.BaseFragments
 
 class CropResult : BaseFragments() {
     private val binding by lazy { CropPredictionResultFragmentBinding.inflate(layoutInflater) }

@@ -11,7 +11,7 @@ import android.widget.ArrayAdapter
 import androidx.navigation.fragment.findNavController
 import com.example.krishicare.R
 import com.example.krishicare.databinding.FertilizerFragmentBinding
-import com.example.krishicare.ui.activites.BaseFragments
+import com.example.krishicare.ui.activites.CropData
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
@@ -121,6 +121,7 @@ class FertilizerFragment : BaseFragments() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        navigationVisibility(false)
         prepareCropSpiner()
         binding.predict.setOnClickListener {
             recommendCrop()

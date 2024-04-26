@@ -70,10 +70,12 @@
     <fragment
         android:id="@+id/chatBotFragment"
         android:name="com.example.krishicare.ui.fragment.ChatBotFragment"
-        android:label="ChatBotFragment" />
+        android:label="ChatBotFragment"
+        tools:layout="@layout/chat_bot_fragment"/>
     <fragment
         android:id="@+id/agroBlogFragment"
         android:name="com.example.krishicare.ui.fragment.AgroBlogFragment"
-        android:label="AgroBlogFragment" />
+        android:label="AgroBlogFragment"
+        tools:layout="@layout/agro_blog_fragment"/>
 
 </navigation>

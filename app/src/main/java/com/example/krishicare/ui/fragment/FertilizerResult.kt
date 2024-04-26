@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.krishicare.databinding.FertilizerResultFragmentBinding
-import com.example.krishicare.ui.activites.BaseFragments
 
 class FertilizerResult : BaseFragments() {
     private val binding by lazy {FertilizerResultFragmentBinding.inflate(layoutInflater)}

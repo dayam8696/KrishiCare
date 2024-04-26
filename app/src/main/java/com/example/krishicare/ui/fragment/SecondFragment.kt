@@ -13,7 +13,7 @@ import com.example.KrishiCare.model.CurrentWeather
 import com.example.krishicare.R
 import com.example.krishicare.databinding.SecondFragmentBinding
 import com.example.krishicare.ml.ConvertedModel
-import com.example.krishicare.ui.activites.BaseFragments
+import com.example.krishicare.ui.fragment.BaseFragments
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -65,6 +65,7 @@ class SecondFragment: BaseFragments() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        navigationVisibility(false)
         prepareStatesSpinner()
         binding.predict.setOnClickListener {
             getStateWeather(state)
