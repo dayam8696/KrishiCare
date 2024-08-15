@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/newhome"
+    android:background="#F9F9EB"
     android:orientation="vertical">
 
 
@@ -14,7 +14,7 @@
         android:layout_height="200dp"
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
-        android:src="@drawable/newappicon"/>
+        android:src="@drawable/logo"/>
 
     <GridLayout
         android:layout_width="350dp"
@@ -35,7 +35,7 @@
             android:layout_columnWeight="1"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
-            app:cardBackgroundColor="#FEFDED"
+            app:cardBackgroundColor="#D3EF9B"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp">
 
@@ -49,17 +49,31 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="45dp"
                     android:background="@drawable/newagroblog" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#0E5F0E">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="Agro Blogs"
-                    android:textSize="15dp"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
                     android:textStyle="bold" />
 
+
+
+            </LinearLayout>
+
+ḥ
 
             </LinearLayout>
 
@@ -74,32 +88,45 @@
             android:layout_rowWeight="1"
             android:layout_column="1"
             android:layout_columnWeight="1"
-            app:cardBackgroundColor="#FEFDED"
+            app:cardBackgroundColor="#D3EF9B"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
-                android:orientation="vertical"
-                >
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginBottom="20dp"
                     android:background="@drawable/newdisease"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="#0E5F0E">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="Disease Prediction"
-                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
                     android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
 
 
 
@@ -115,15 +142,15 @@
             android:layout_rowWeight="1"
             android:layout_column="0"
             android:layout_columnWeight="1"
-            app:cardBackgroundColor="#FEFDED"
+            app:cardBackgroundColor="#D3EF9B"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
                 android:orientation="vertical">
@@ -131,15 +158,30 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="55dp"
                     android:background="@drawable/newcropprediction"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="Crop Prediction"
-                    android:textSize="15dp"
-                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#0E5F0E">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Crop Prediction"
+                        android:layout_gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+
+
+
+                </LinearLayout>
+
 
             </LinearLayout>
 
@@ -154,15 +196,15 @@
             android:layout_rowWeight="1"
             android:layout_column="1"
             android:layout_columnWeight="1"
-            app:cardBackgroundColor="#FEFDED"
+            app:cardBackgroundColor="#D3EF9B"
             android:layout_gravity="fill"
             android:layout_margin="8dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:gravity="center"
                 android:orientation="vertical">
@@ -170,15 +212,30 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
+                    android:layout_marginTop="54dp"
+                    android:layout_marginBottom="20dp"
                     android:background="@drawable/newfertizericon"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="Riched Fertilizer"
-                    android:textSize="15dp"
-                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#0E5F0E">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Riched Fertilizer"
+                        android:layout_gravity="center"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+
+
+
+                </LinearLayout>
+
 
             </LinearLayout>
 
@@ -193,7 +250,7 @@
         android:layout_height="200dp"
         android:layout_marginLeft="330dp"
         android:layout_marginTop="2dp"
-        android:backgroundTint="#FEFDED"
+        android:backgroundTint="#0E5F0E"
 
 
         android:src="@drawable/baseline_chat_24" />
