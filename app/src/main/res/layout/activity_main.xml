@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:animateLayoutChanges="true"
-        android:backgroundTint="#FEFDED"
+        android:backgroundTint="#0E5F0E"
         android:background="#FEFDED"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
